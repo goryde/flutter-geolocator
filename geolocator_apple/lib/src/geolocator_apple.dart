@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 
 import 'package:geolocator_platform_interface/geolocator_platform_interface.dart';
 
-/// An implementation of [GeolocatorPlatform] that uses method channels.
+/// Implementation of [GeolocatorPlatform] that uses method channels.
 class GeolocatorApple extends GeolocatorPlatform {
   /// The method channel used to interact with the native platform.
   static const _methodChannel = MethodChannel('flutter.baseflow.com/geolocator_apple');
